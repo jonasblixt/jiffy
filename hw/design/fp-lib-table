@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name Housings_DFN_QFN)(type KiCad)(uri "/Library/Application Support/kicad/modules/Housings_DFN_QFN.pretty")(options "")(descr ""))
+  (lib (name Capacitors_SMD)(type KiCad)(uri "/Library/Application Support/kicad/modules/Capacitors_SMD.pretty")(options "")(descr ""))
+  (lib (name Pin_Headers)(type KiCad)(uri "/Library/Application Support/kicad/modules/Pin_Headers.pretty")(options "")(descr ""))
+  (lib (name TO_SOT_Packages_SMD)(type KiCad)(uri "/Library/Application Support/kicad/modules/TO_SOT_Packages_SMD.pretty")(options "")(descr ""))
+  (lib (name Housings_SSOP)(type KiCad)(uri "/Library/Application Support/kicad/modules/Housings_SSOP.pretty")(options "")(descr ""))
+)
