@@ -15,6 +15,7 @@ RUN apt-get update && apt-get install -y \
     python-wand \
     libncurses5-dev \
     python3 \
+    libssl-dev \
 && rm -rf /var/lib/apt/lists/* \
-&& curl -sL https://releases.linaro.org/components/toolchain/binaries/5.3-2016.05/arm-linux-gnueabihf/gcc-linaro-5.3.1-2016.05-x86_64_arm-linux-gnueabihf.tar.xz | tar xJv -C /opt 
+&& curl -sL https://releases.linaro.org/components/toolchain/binaries/7.1-2017.08/arm-linux-gnueabihf/gcc-linaro-7.1.1-2017.08-x86_64_arm-linux-gnueabihf.tar.xz | tar xJv -C /opt 
 
