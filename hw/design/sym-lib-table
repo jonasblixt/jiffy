@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name gw-rescue)(type Legacy)(uri "/Users/jop/Documents/Projects/Blixten/Blixten Gateway/gw-rescue.lib")(options "")(descr ""))
+  (lib (name jiffy-rescue)(type Legacy)(uri ${KIPRJMOD}/jiffy-rescue.lib)(options "")(descr ""))
 )
