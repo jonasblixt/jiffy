@@ -1,8 +1,0 @@
-#!/bin/sh
-
-BLOB_NAME=$2
-BLOB_PATH=$1
-
-echo "unsigned char __attribute__((section (\".$BLOB_NAME\")))  __${BLOB_NAME}_bin[] = {" > $BLOB_NAME.c
-cat $BLOB_PATH | xxd -i >> $BLOB_NAME.c
-echo "};" >> $BLOB_NAME.c
