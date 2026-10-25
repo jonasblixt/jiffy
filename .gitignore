@@ -1,1 +1,7 @@
 .DS_Store
+
+# KiCad local history and per-user project state
+.history/
+*.kicad_prl
+*-backups/
+fp-info-cache
